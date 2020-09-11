@@ -103,10 +103,10 @@ define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
 /**
  * DB settings
  */
-define('DB_NAME', env('bqrker_db'));
-define('DB_USER', env('root'));
-define('DB_PASSWORD', env(''));
-define('DB_HOST', env('DB_HOST') ?: 'localhost');
+define('DB_NAME','byvv7szgfnnfjrkr2oay');
+define('DB_USER', 'ucxdoxrpmaumld6i');
+define('DB_PASSWORD', 'ucxdoxrpmaumld6i');
+define('DB_HOST', 'byvv7szgfnnfjrkr2oay-mysql.services.clever-cloud.com');
 define('DB_CHARSET', 'utf8mb4');
 define('DB_COLLATE', '');
 $table_prefix = env('DB_PREFIX') ?: 'wp_';
