@@ -18,6 +18,11 @@
 	{
 	  "type": "composer",
 	  "url": "https://wpackagist.org"
+	},
+	{
+		"name":"automattic/underscores",
+		"type": "github",
+		"url": "git@github.com:PhilippHeuer/wordpress-heroku.git"
 	}
   ],
   "minimum-stability": "stable",
@@ -62,7 +67,8 @@
 		"wpackagist-plugin/debug-bar"
 	  ],
 	  "web/app/themes/{$name}/": [
-		"type:wordpress-theme"
+		"type:wordpress-theme",
+		"automattic/underscores"
 	  ]
 	},
 	"dropin-paths": {
