@@ -103,9 +103,9 @@ define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
 /**
  * DB settings
  */
-define('DB_NAME', env('DB_NAME'));
-define('DB_USER', env('DB_USER'));
-define('DB_PASSWORD', env('DB_PASSWORD'));
+define('DB_NAME', env('bqrker_db'));
+define('DB_USER', env('root'));
+define('DB_PASSWORD', env(''));
 define('DB_HOST', env('DB_HOST') ?: 'localhost');
 define('DB_CHARSET', 'utf8mb4');
 define('DB_COLLATE', '');
@@ -114,14 +114,14 @@ $table_prefix = env('DB_PREFIX') ?: 'wp_';
 /**
  * Authentication Unique Keys and Salts
  */
-define('AUTH_KEY', env('AUTH_KEY'));
-define('SECURE_AUTH_KEY', env('SECURE_AUTH_KEY'));
-define('LOGGED_IN_KEY', env('LOGGED_IN_KEY'));
-define('NONCE_KEY', env('NONCE_KEY'));
-define('AUTH_SALT', env('AUTH_SALT'));
-define('SECURE_AUTH_SALT', env('SECURE_AUTH_SALT'));
-define('LOGGED_IN_SALT', env('LOGGED_IN_SALT'));
-define('NONCE_SALT', env('NONCE_SALT'));
+define('AUTH_KEY',         '9zryjX#mM P|;i !x|G<-?rh?wJ[0@t1EUhHyo%I)>=.P{-B1{X4[9#(TbFAX]po');
+define('SECURE_AUTH_KEY',  '^)I ZT[*_QaknW:&dy026CRO5O2,$ZDExx#%4%-.aHOF!vOpHOWg0.RZn<z=FOY(');
+define('LOGGED_IN_KEY',    '3eI:||jIM|,>e|B)I~_^#*N05y,qHvw|#>2a/3{R>-dmmdU{raGD7wT-S_K6G$uj');
+define('NONCE_KEY',        '|`8F*g.v@Aeks-kr%H25!wRT.<f+i*T/S|kjpn~XsK+y<+W,4:]ZD1FYJ:#J-$gy');
+define('AUTH_SALT',        '|P9?0|fP`+oNN-RrL`Vn#jpfa[U)9O41%n23c18zPS g;=6U*FHmlD|5b0Za!zHr');
+define('SECURE_AUTH_SALT', 'UZ=OTTAh9,5pnD;` pPhbgb-nOlc5`B-PcTmn!,(GxNC2{l|[9qHP+>>}[T@D~pJ');
+define('LOGGED_IN_SALT',   '63c~r=:v>Mdn7m!5|IlSxxqj}+u)7l3G[a,.Crn.*>F{d_wo`H^k5]q94>W:vK0$');
+define('NONCE_SALT',       'm&I4W4#:r%^?:*T%M33m]3McN ngV+y*jR4m?i!A=X-^pw_#GW_7H;1$yd0fbP6)');
 
 /**
  * Custom Settings
