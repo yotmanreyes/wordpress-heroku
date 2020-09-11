@@ -172,6 +172,12 @@ require get_template_directory() . '/inc/template-functions.php';
 require get_template_directory() . '/inc/customizer.php';
 
 /**
+ * Implement custom Post Types 
+ */
+
+require get_template_directory() . '/inc/custom-entries/card.php';
+
+/**
  * Load Jetpack compatibility file.
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
