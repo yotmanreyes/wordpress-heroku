@@ -105,7 +105,7 @@ define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
  */
 define('DB_NAME','byvv7szgfnnfjrkr2oay');
 define('DB_USER', 'ucxdoxrpmaumld6i');
-define('DB_PASSWORD', 'ucxdoxrpmaumld6i');
+define('DB_PASSWORD', 'DKsqkUPklUDgOOTk1ix6');
 define('DB_HOST', 'byvv7szgfnnfjrkr2oay-mysql.services.clever-cloud.com');
 define('DB_CHARSET', 'utf8mb4');
 define('DB_COLLATE', '');
