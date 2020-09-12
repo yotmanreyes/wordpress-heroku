@@ -1,73 +1,28 @@
 .main-navigation {
-	display: block;
-	width: 100%;
-
-	ul {
-		display: none;
-		list-style: none;
-		margin: 0;
-		padding-left: 0;
-
-		ul {
-			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-			float: left;
-			position: absolute;
-			top: 100%;
-			left: -999em;
-			z-index: 99999;
-
-			ul {
-				left: -999em;
-				top: 0;
-			}
-
-			li {
-
-				&:hover > ul,
-				&.focus > ul {
-					display: block;
-					left: auto;
-				}
-			}
-
-			a {
-				width: 200px;
-			}
-
-			:hover > a,
-			.focus > a {
-			}
-
-			a:hover,
-			a.focus {
-			}
-		}
-
-		li:hover > ul,
-		li.focus > ul {
-			left: auto;
-		}
-	}
-
-	li {
-		position: relative;
-
-		&:hover > a,
-		&.focus > a {
-		}
-	}
-
-	a {
-		display: block;
-		text-decoration: none;
-	}
-
+	display: flex;
+	flex-direction: column;
 	.current_page_item > a,
 	.current-menu-item > a,
 	.current_page_ancestor > a,
 	.current-menu-ancestor > a {
 	}
 }
+
+.nav-menu {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+
+	& .menu-item{
+		margin-right: 1rem;
+
+		& a{
+			color: #fff;
+		}
+	}
+}
+
 
 /* Small menu. */
 .menu-toggle,
@@ -106,4 +61,9 @@
 		text-align: end;
 		flex: 1 0 50%;
 	}
+}
+
+
+.nav-menu{
+
 }
