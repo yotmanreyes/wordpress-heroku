@@ -1,8 +1,8 @@
 .site-header{
     display: flex;
     align-items: center;
+    min-height: 100px;
     padding:1em;
-    font-family: $font_base;
     color: #fff;
     background-color: $color_navy_blue;
 }
