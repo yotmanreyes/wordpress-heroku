@@ -624,6 +624,16 @@ textarea {
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
+/* Header
+--------------------------------------------- */
+.site-header {
+	display: flex;
+	padding: 1em;
+	font-family: "Open Sans", sans-serif;
+	color: #fff;
+	background-color: #0F1A42;
+}
+
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
